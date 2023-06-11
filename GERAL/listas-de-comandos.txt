@@ -1,0 +1,87 @@
+================== Git / GitHub ==================
+
+Git - O git é um sistema de controle de versão de códigos. Gerencia ramificações feitas por diferentes pessoas de um time de modo a manter a ordem e integração de todas as partes. Ou seja, mesmo que várias pessoas estejam trabalhando em um programa ao mesmo tempo, ainda é possível controlar as mudanças para evitar erros.
+
+GitHub - O github é uma plataforma de gestão de códigos que se baseia no git e adiciona um fator social, de compartilhamento e interação interpessoal. O hub é crucial para a gestão de projetos, pois ajuda a visualizar as responsabilidades e as entregas, com um controle de prazos e de detalhes.
+
+=============================================
+
+
+
+
+================== Comandos de navegação linux ==================
+
+echo - Apresenta um texto no console
+
+cd - Navega para outra pasta
+
+ls - Mostra os elementos presentes na pasta
+
+pwd - Mostra em qual path o usuário está no momento na arvore de diretórios
+
+mkdir - Cria uma nova pasta
+
+rm - Apaga um arquivo
+
+rm -rf - Apaga uma pasta
+
+sudo - Permite rodar comandos que necessitam de privilégio de super usuário
+
+touch - Cria ou atualiza um arquivo
+
+cat - Captura o conteúdo de um arquivo e mostra na tela
+
+less - Mostra o conteúdo de um arquivo no console
+
+history - Mostra o histórico de comandos
+
+grep - Filtra o conteúdo de um arquivo através do texto desejado e mostra na tela o resultado
+
+cp - Copia o conteúdo de um arquivo para um novo arquivo
+
+mv - Move o conteúdo de arquivo para outro apagando o anterior
+
+clear - Limpa os textos que estão aparecendo no console
+
+exit - Fecha a sessão atual
+
+=============================================
+
+
+
+
+
+================== Comandos git ==================
+
+git commit - O commit é um comando importantíssimo. Ele leva as mudanças de um ambiente local para o repositório no git, permitindo ainda a inserção de uma mensagem descritiva. Assim, a cada mudança ou finalização de uma tarefa, a pessoa desenvolvedora pode submeter seus feitos e deixar claro para as outras pessoas o que ela fez. 
+
+git add - Um comando muito similar ao “commit” e que trabalha com ele é o “add”. Com essa palavra-chave, nós preparamos arquivos para o próximo “commit”, ou seja, para subir para o repositório na web. É possível adicionar um único arquivo ou todos os arquivos modificados de uma única vez.
+
+git init - O init é o primeiro dos comandos git que se usa para começar um repositório. Isto é, o que ele faz é transformar uma pasta com códigos no seu HD em uma pasta monitorada pelo git, que será carregada para a plataforma e estará visível para outras pessoas. Ou então cria um repositório novo.
+
+
+git clone - Para começar, muitas pessoas optam por uma alternativa ao init: o git clone. A partir dele, você clona um código de um repositório para a sua máquina para então começar a trabalhar nele. Pode ser um projeto de uma pessoa da sua empresa, um projeto de colegas da faculdade ou até mesmo uma aplicação open-source para a qual você julgou interessante colaborar.
+
+git status - Para saber algumas informações sobre a ramificação na qual você está trabalhando agora, use o “status”. Esse comando esclarece quais arquivos foram alterados e faz uma comparação com relação à ramificação principal. Exemplo: “git status”
+
+git branch - Para trabalhar em equipe, você pode criar diferentes branches, e o git administra todas elas em paralelo para evitar problemas de versão. Então, posteriormente, com um comando que veremos, é possível unificar as ramificações. O comando “git branch” cria novas branches. Mas também pode funcionar como uma forma de verificar as ramificações já existentes. 
+
+git merge - Depois de programar em uma branch, você tem que fazer uma conjunção dela com outras para de fato subir as alterações. É só colocar o nome da branch que desejamos mesclar com a principal depois do termo merge.
+
+git checkout - O objetivo dele é fazer a pessoa programadora mudar de branch. Você pode usar o “git branch” para saber quais existem e depois trocar de uma para outra, É importante destacar que é preciso fazer um checkout para a master branch quando queremos captar as mudanças de outra ramificação.
+
+git revert - O revert é um dos comandos git aplicados para garantir a segurança dos nossos projetos. Permite desfazer algum commit e recuperar uma versão saudável, seja localmente, seja remotamente. Para usá-lo, é preciso primeiro executar um “git log -- oneline” para obter o número do hash. Com o hash, então, é possível digitar: “git revert 'nº do hash'”.
+
+git rm - O git rm é um comando muito útil para remover arquivos do git e parar de monitorá-los, ou seja, de associá-los ao repositório. 
+
+git pull - Antes de começar a programar em algum repositório, é bom também executar um “pull”. Esse comando traz para a sua máquina todas as mudanças que foram realizadas na plataforma. Ou seja, é uma forma de atualizar a sua versão da aplicação com o que foi alterado remotamente.
+
+git stash - O stash serve para criar uma pilha de alterações que serão enviadas posteriormente para o repositório. É uma boa forma de guardar algumas mudanças em espera enquanto você muda de branch para trabalhar em outros aspectos do sistema. É ideal para sistemas grandes, com muitas ramificações que demandam essa flexibilidade da pessoa programadora. Exemplo: “git stash"
+
+git config - O config é um comando inicial para vincular o trabalho no repositório com sua conta no github. Assim, é configurado com o nome e com o e-mail. 
+
+git reset - O reset é outra forma de voltar ao último estado saudável do seu sistema, uma alternativa ao revert. Funciona assim: “git reset --hard HEAD~1”.
+
+git push - O push serve para subir as alterações de uma ramificação para um certo repositório. Ele entrega todos os commits e a mensagem. Exemplo: “git push”
+
+=============================================
