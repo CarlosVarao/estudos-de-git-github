@@ -67,7 +67,7 @@ git branch - Para trabalhar em equipe, você pode criar diferentes branches, e o
 
 git merge - Depois de programar em uma branch, você tem que fazer uma conjunção dela com outras para de fato subir as alterações. É só colocar o nome da branch que desejamos mesclar com a principal depois do termo merge.
 
-git checkout - O objetivo dele é fazer a pessoa programadora mudar de branch. Você pode usar o “git branch” para saber quais existem e depois trocar de uma para outra, É importante destacar que é preciso fazer um checkout para a master branch quando queremos captar as mudanças de outra ramificação.
+git checkout - O objetivo dele é fazer a pessoa programadora mudar de branch. Você pode usar o “git branch” para saber quais existem e depois trocar de uma para outra, É importante destacar que é preciso fazer um checkout para a master branch quando queremos captar as mudanças de outra ramificação. Lembrando tambem que esse comando serve para você desfazer alguma modificação indesejada que você fez no seu cod, porem so rafaz a alteração se ela nao estiver na HEAD para subir um commit.
 
 git revert - O revert é um dos comandos git aplicados para garantir a segurança dos nossos projetos. Permite desfazer algum commit e recuperar uma versão saudável, seja localmente, seja remotamente. Para usá-lo, é preciso primeiro executar um “git log -- oneline” para obter o número do hash. Com o hash, então, é possível digitar: “git revert 'nº do hash'”.
 
