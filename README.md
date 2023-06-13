@@ -2,4 +2,4 @@
 
 Neste Repositório contém meus arquivos que usei e ainda uso para sempre fortalecer meus conhecimentos na area !
 
-<img align="center" alt="sheets" src="https://i.imgur.com/n5LNQLA.jpg">
+<img align="center" alt="sheets" src="github%20sheets.png">
